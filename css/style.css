@@ -19,10 +19,13 @@
 }
 
 .card {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   padding: 3rem 2rem;
   border-radius: 7px;
   background-color: white;
+  -webkit-box-shadow: -31px 56px 70px -44px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: -31px 56px 70px -44px rgba(0, 0, 0, 0.65);
+  box-shadow: -11px 16px 70px -44px rgba(0, 0, 0, 0.65);
   /* Add box shadow here */
 }
 
