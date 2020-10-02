@@ -23,7 +23,7 @@ image {
 body {
   padding: 0px;
   margin: 0px;
-
+  min-width: 36rem;
   display: flex;
   justify-content: center;
   background-color: var(--veryLightGray);
@@ -40,5 +40,8 @@ h1,
 
 .main {
   margin: 7rem 3rem;
-  max-width: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
